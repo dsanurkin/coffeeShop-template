@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$poppins: 'Poppins', sans-serif;
+
+body,html {
+    overflow-x: hidden;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: $poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: #fff;
+    font-size: 2.375rem;
+    text-transform: uppercase;
+    line-height: 2.375rem;
+    &:after {
+
+    }
+}
+.ms-section {
+    overflow: hidden;
+    background: #212121;
+    height: 100%;
+}
+
+.wrapper {
+
+}
+
+.container {
+    width: 745px;
+    margin: 0 auto;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+}
