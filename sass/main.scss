@@ -221,3 +221,27 @@ img {
     padding: 5px 10px;
     font-weight: 600;
 }
+
+blockquote {
+    padding: 40px;
+    position: relative;
+    text-indent: 50px;
+    font-style: italic;
+    font-size: 1.250rem;
+    background: #333;
+    margin-bottom: 20px;
+}
+
+.cite {
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
+    &::before {
+        font-family: 'FontAwesome';
+        speak: none;
+        text-indent: 0;
+        text-align: center;
+        margin-right: 5px;
+        content: "\f068";
+    }
+}
