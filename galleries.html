@@ -7,47 +7,92 @@
     <title>CoffeeShop</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
-            <nav id="nav-menu">
-                    <ul class="nav-list">
-                        <li class="section-0"><a href="#" class="fas fa-bars burger"></a></li>
-                        <li class="section-1"><a href="index.html" class="fas fa-home"></a></li>
-                        <li class="section-2"><a href="about.html" class="fas fa-users"></a></li>
-                        <li class="section-6"><a href="menu.html" class="fa fa-map-marker"></a></li>
-                        <li class="section-3"><a href="blog.html" class="fas fa-coffee"></a></li>
-                        <li class="section-4"><a href="galleries.html" class="fa fa-bullhorn active"></a></li>
-                        <li class="section-5"><a href="contact.html" class="fa fa-camera"></a></li>
-                    </ul>
-                </nav>
+        <nav id="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="fas fa-bars burger"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Home</div><a href="index.html" class="fas fa-home"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">About</div><a href="about.html" class="fas fa-users"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Menu</div><a href="menu.html" class="fas fa-coffee"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Blog</div><a href="blog.html" class="fa fa-bullhorn"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Galleries</div><a href="galleries.html" class="fa fa-camera active"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Contact</div><a href="contact.html" class="fa fa-map-marker"></a></li>
+                </ul>
+            </nav>
         <div id="multiscroll">
             <section id="section-2">
-                <div class="ms-left animated fadeInUpBig"><img src="images/slide4.jpg" alt=""></div>
+                <div class="ms-left animated fadeInUpBig">
+                    <img src="images/gallery1.jpg" alt="">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
                 <div class="ms-right animated fadeInDownBig">
-                        <div class="container">
-                            <div class="right-block">
-                                <h2 class="section-title">About Us</h2>
-                                <p class="section-text">Laborum varias in possumus philosophari nam mandaremus ad malis. Sint fidelissimae tempor fugiat expetendis. Est nisi quibusdam admodum ut noster laborum se tamen culpa aut labore.</p>
-                                <img src="images/aboutus.jpg" alt="aboutus">
-                                <p class="section-text">Senserit sed commodo. Ubi nescius a iudicem, non veniam si amet a tempor ad fabulas id ipsum excepteur relinqueret non fore commodo quibusdam, incidi imitaren do mentitum. Et enim offendit ingeniis. Dolor probant senserit si mandaremus do nulla laborum, hic aute iudicem expetendis id cupidatat tamen iudicem proident ut eram arbitror aut veniam enim, nostrud.</p>
-                                <div class="btn-row">
-                                    <a href="#">Contact Us</a>
+                    <div class="container">
+                        <div class="right-block">
+                            <h2 class="section-title">galleries</h2>
+                            <div class="sorting">
+                                <ul class="sorting-list">
+                                    <li><a href="#" class="active-sorting">All</a></li>
+                                    <li><a href="#">Images</a></li>
+                                    <li><a href="#">Links</a></li>
+                                    <li><a href="#">Videos</a></li>
+                                </ul>
+                            </div>
+                            <div class="grid">
+                                <div class="grid-item size">
+                                    <figure class="grid-item--inner">
+                                        <a href="images/grid1.jpg" class="gallery-item"><img src="images/grid1.jpg" alt=""></a>
+                                        <figcaption>A Photo Gallery</figcaption>
+                                    </figure>
                                 </div>
-                                <h2 class="section-title">TESTIMONIALS</h2>
-                                <div class="quote">
-                                    <p>Nulla ita quamquam non fugiat est possumus quem a admodum exquisita, ut esse officia, quorum expetendis o tempor, cernantur.</p>
+                                <div class="grid-item size">
+                                    <figure class="grid-item--inner">
+                                        <a href="https://youtu.be/aBLYSO0DSVI" class="gallery-item mfp-iframe"><img src="images/grid2.jpg" alt=""></a>
+                                        <figcaption>A video Gallery</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item size">
+                                    <figure class="grid-item--inner">
+                                        <a href="images/grid4.jpg" class="gallery-item"><img src="images/grid4.jpg" alt=""></a>
+                                        <figcaption>Another Gallery</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item size">
+                                    <figure class="grid-item--inner">
+                                        <a href="images/grid4.jpg" class="gallery-item"><img src="images/grid3.jpg" alt=""></a>
+                                        <figcaption>Page XL</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item size">
+                                    <figure class="grid-item--inner">
+                                        <a href="images/grid6.jpg" class="gallery-item"><img src="images/grid6.jpg" alt=""></a>
+                                        <figcaption>Page with silder</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item size">
+                                    <figure class="grid-item--inner">
+                                        <a href="images/grid5.jpg" class="gallery-item"><img src="images/grid5.jpg" alt=""></a>
+                                        <figcaption>Autoplay On</figcaption>
+                                    </figure>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </section>
         </div>
     </div>
 <script src="js/main.js"></script>
-<script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+<script src="js/masonry.js"></script>
+<script src="js/ofi.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 </body>
 </html>

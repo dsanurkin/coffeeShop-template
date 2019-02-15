@@ -13,41 +13,96 @@
 </head>
 <body>
     <div class="wrapper">
-            <nav id="nav-menu">
-                    <ul class="nav-list">
-                        <li class="section-0"><a href="#" class="fas fa-bars burger"></a></li>
-                        <li class="section-1"><a href="index.html" class="fas fa-home"></a></li>
-                        <li class="section-2"><a href="about.html" class="fas fa-users"></a></li>
-                        <li class="section-6"><a href="menu.html" class="fa fa-map-marker"></a></li>
-                        <li class="section-3"><a href="blog.html" class="fas fa-coffee"></a></li>
-                        <li class="section-4"><a href="galleries.html" class="fa fa-bullhorn"></a></li>
-                        <li class="section-5"><a href="contact.html" class="fa fa-camera active"></a></li>
-                    </ul>
-                </nav>
+        <nav id="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="fas fa-bars burger"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Home</div><a href="index.html" class="fas fa-home"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">About</div><a href="about.html" class="fas fa-users"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Menu</div><a href="menu.html" class="fas fa-coffee"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Blog</div><a href="blog.html" class="fa fa-bullhorn"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Galleries</div><a href="galleries.html" class="fa fa-camera "></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Contact</div><a href="contact.html" class="fa fa-map-marker active"></a></li>
+            </ul>
+        </nav>
         <div id="multiscroll">
-            <section id="section-2">
-                <div class="ms-left animated fadeInUpBig"><img src="images/slide4.jpg" alt=""></div>
-                <div class="ms-right animated fadeInDownBig">
-                        <div class="container">
-                            <div class="right-block">
-                                <h2 class="section-title">About Us</h2>
-                                <p class="section-text">Laborum varias in possumus philosophari nam mandaremus ad malis. Sint fidelissimae tempor fugiat expetendis. Est nisi quibusdam admodum ut noster laborum se tamen culpa aut labore.</p>
-                                <img src="images/aboutus.jpg" alt="aboutus">
-                                <p class="section-text">Senserit sed commodo. Ubi nescius a iudicem, non veniam si amet a tempor ad fabulas id ipsum excepteur relinqueret non fore commodo quibusdam, incidi imitaren do mentitum. Et enim offendit ingeniis. Dolor probant senserit si mandaremus do nulla laborum, hic aute iudicem expetendis id cupidatat tamen iudicem proident ut eram arbitror aut veniam enim, nostrud.</p>
-                                <div class="btn-row">
-                                    <a href="#">Contact Us</a>
-                                </div>
-                                <h2 class="section-title">TESTIMONIALS</h2>
-                                <div class="quote">
-                                    <p>Nulla ita quamquam non fugiat est possumus quem a admodum exquisita, ut esse officia, quorum expetendis o tempor, cernantur.</p>
+            <section class="main-section">
+                <div class="ms-left animated fadeInDownBig">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9665.783743486165!2d41.45626084999999!3d52.724145050000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1549953848866" width="100%" height="100%" frameborder="0" style="border:0; filter: grayscale(1);" allowfullscreen></iframe>
+                    <div class="logo">
+                       <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="ms-right animated fadeInUpBig">
+                    <div class="container">
+                        <div class="right-block">
+                            <h2 class="section-title">Contact</h2>
+                            <div class="contacts">
+                                <ul class="contacts-list">
+                                    <li class="contacts-item">
+                                        <div class="contact-name"><i class="fas fa-phone-square icon"></i>Phone</div>
+                                        <div class="contact-info">234-435-4345</div>
+                                    </li>
+                                    <li class="contacts-item">
+                                        <div class="contact-name"><i class="fas fa-envelope icon"></i>E-mail</div>
+                                        <div class="contact-info">info@mysite.com</div>
+                                    </li>
+                                    <li class="contacts-item">
+                                        <div class="contact-name"><i class="fas fa-map-marked icon"></i>Adress</div>
+                                        <div class="contact-info">144 King St, Melbourne VIC</div>
+                                    </li>
+                                    <li class="contacts-item">
+                                        <div class="contact-name"><i class="fas fa-fax icon"></i>Fax</div>
+                                        <div class="contact-info">234-435-4346</div>
+                                    </li>
+                                </ul>
+                                <p>
+                                    Quibusdam noster aut laborum despicationes. Malis appellat o enim tamen. O amet quibusdam. Magna occaecat ex coniunctione, quis in mentitum, multos excepteur offendit, id a dolore illum.
+                                </p>
+                                <hr>
+                                <h2 class="section-title">Make a reservation</h2>
+                                <div class="form">
+                                    <form action="">
+                                        <ul class="form-list">
+                                            <li class="form-list--item">
+                                                <label class="form-label">Your Name (required)</label>
+                                                <input type="text">
+                                            </li>
+                                            <li class="form-list--item">
+                                                <label class="form-label">Your Email (required)</label>
+                                                <input type="text">
+                                            </li>
+                                            <li class="form-list--item">
+                                                <label class="form-label">Your Cell Phone</label>
+                                                <input type="text">
+                                            </li>
+                                            <li class="form-list--item">
+                                                <label class="form-label">Subject</label>
+                                                <input type="text">
+                                            </li>
+                                            <li class="form-list--item">
+                                                <label class="form-label">Date</label>
+                                                <input type="date">
+                                            </li>
+                                            <li class="form-list--item">
+                                                <label class="form-label">No of people</label>
+                                                <input type="text">
+                                            </li>
+                                            <li class="form-list--item">
+                                                <label class="form-label">Your Message</label>
+                                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                            </li>
+                                        </ul>
+                                        <div class="btn-row"><a href="#" class="btn">Send</a></div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </section>
         </div>
     </div>
 <script src="js/main.js"></script>
-<script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+<script src="js/ofi.min.js"></script>
 </body>
 </html>

@@ -14,21 +14,24 @@
 <body>
     <div class="wrapper">
         <nav id="nav-menu">
-                <nav id="nav-menu">
-                        <ul class="nav-list">
-                            <li class="section-0"><a href="#" class="fas fa-bars burger"></a></li>
-                            <li class="section-1"><a href="index.html" class="fas fa-home"></a></li>
-                            <li class="section-2"><a href="about.html" class="fas fa-users active"></a></li>
-                            <li class="section-6"><a href="menu.html" class="fa fa-map-marker"></a></li>
-                            <li class="section-3"><a href="blog.html" class="fas fa-coffee"></a></li>
-                            <li class="section-4"><a href="galleries.html" class="fa fa-bullhorn"></a></li>
-                            <li class="section-5"><a href="contact.html" class="fa fa-camera"></a></li>
-                        </ul>
-                    </nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="fas fa-bars burger"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Home</div><a href="index.html" class="fas fa-home"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">About</div><a href="about.html" class="fas fa-users active"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Menu</div><a href="menu.html" class="fas fa-coffee"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Blog</div><a href="blog.html" class="fa fa-bullhorn"></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Galleries</div><a href="galleries.html" class="fa fa-camera "></a></li>
+                <li class="nav-item"><div class="nav-item--meta animated swing faster">Contact</div><a href="contact.html" class="fa fa-map-marker"></a></li>
+            </ul>
         </nav>
         <div id="multiscroll">
-            <section id="section-2">
-                <div class="ms-left animated fadeInDownBig "><img src="images/slide4.jpg" alt=""></div>
+            <section class="main-section">
+                <div class="ms-left animated fadeInDownBig">
+                    <img src="images/slide4.jpg" alt="">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
                 <div class="ms-right animated fadeInUpBig">
                     <div class="container">
                         <div class="right-block">
@@ -51,6 +54,6 @@
         </div>
     </div>
 <script src="js/main.js"></script>
-<script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+<script src="js/ofi.min.js"></script>
 </body>
 </html>
