@@ -7,6 +7,7 @@
     <title>CoffeeShop</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -15,7 +16,13 @@
     <div class="wrapper">
         <nav id="nav-menu">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#" class="fas fa-bars burger"></a></li>
+                <li class="nav-item burger">
+                    <div class="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span class="margin-kill"></span>
+                    </div>
+                </li>
                 <li class="nav-item"><div class="nav-item--meta animated swing faster">Home</div><a href="index.html" class="fas fa-home"></a></li>
                 <li class="nav-item"><div class="nav-item--meta animated swing faster">About</div><a href="about.html" class="fas fa-users active"></a></li>
                 <li class="nav-item"><div class="nav-item--meta animated swing faster">Menu</div><a href="menu.html" class="fas fa-coffee"></a></li>
@@ -24,6 +31,81 @@
                 <li class="nav-item"><div class="nav-item--meta animated swing faster">Contact</div><a href="contact.html" class="fa fa-map-marker"></a></li>
             </ul>
         </nav>
+        <ul class="sidebar">
+            <li class="sidebar--item">
+                <div class="sidebar--title">
+                    <div class="container">Menu</div>
+                </div>
+                <ul class="sidebar-list">
+                    <div class="container">
+                        <li class="sidebar-list--item"><a href="#" class="sidebar-link">Blog</a></li>
+                        <li class="sidebar-list--item"><a href="#" class="sidebar-link">Single Post</a></li>
+                        <li class="sidebar-list--item"><a href="#" class="sidebar-link">Page XL</a></li>
+                        <li class="sidebar-list--item"><a href="#" class="sidebar-link">Page with Slider</a></li>
+                        <li class="sidebar-list--item"><a href="#" class="sidebar-link">Other Features</a></li>
+                        <li class="sidebar-list--item"><a href="#" class="sidebar-link">Dropdown</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li class="sidebar--item">
+                <div class="sidebar--title">   
+                    <div class="container">Search</div>
+                </div>
+                <div class="sidebar-search">
+                    <div class="container">
+                        <div class="sidebar-search--item">
+                            <input type="text" class="searchtext">
+                            <input type="submit" class="cv-button" value="">
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="sidebar--item">
+                <div class="sidebar--title">
+                    <div class="container">Categories</div>
+                </div>
+                <div class="sidebar-categories">
+                    <div class="container">
+                        <ul class="sidebar-categories-list">
+                            <li class="sidebar-categories--item">
+                                <a href="#">Coffees</a>
+                                <div class="categories-number">2</div>
+                            </li>
+                            <li class="sidebar-categories--item">
+                                <a href="#">Events</a>
+                                <div class="categories-number">4</div>
+                            </li>
+                            <li class="sidebar-categories--item">
+                                <a href="#">Lifestyle</a>
+                                <div class="categories-number">1</div>
+                            </li>
+                            <li class="sidebar-categories--item">
+                                <a href="#">Teas</a>
+                                <div class="categories-number">2</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="sidebar--item">
+                <div class="sidebar--title">
+                    <div class="container">Tags</div>
+                </div>
+                <div class="sidebar-tags">
+                    <div class="container">
+                        <div class="tagcloud">
+                            <a href="#" class="tag">arbitror</a>
+                            <a href="#" class="tag">eiusmod</a>
+                            <a href="#" class="tag">commodo</a>
+                            <a href="#" class="tag">fabulas</a>
+                            <a href="#" class="tag">accaecat</a>
+                            <a href="#" class="tag">singulis</a>
+                            <a href="#" class="tag">tempor</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
         <div id="multiscroll">
             <section class="main-section">
                 <div class="ms-left animated fadeInDownBig">
@@ -54,6 +136,7 @@
         </div>
     </div>
 <script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/malihu-custom-scrollbar-plugin@3.1.5/jquery.mCustomScrollbar.js"></script>
 <script src="js/ofi.min.js"></script>
 </body>
 </html>
