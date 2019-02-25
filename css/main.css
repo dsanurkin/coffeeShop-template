@@ -955,13 +955,15 @@ blockquote:before {
     .sorting-list a {
       padding: 0.938rem 0;
       font-size: 1.125rem;
-      text-align: center; }
+      text-align: center; } }
+
+@media screen and (max-width: 580px) {
   .sidebar {
     width: 82%; }
   .sidebar-opened {
-    -webkit-transform: translateX(23%);
-    -ms-transform: translateX(23%);
-    transform: translateX(23%); } }
+    -webkit-transform: translateX(60px);
+    -ms-transform: translateX(60px);
+    transform: translateX(60px); } }
 
 @media screen and (max-width: 550px) {
   .socials-item a {

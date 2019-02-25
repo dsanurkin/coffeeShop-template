@@ -951,14 +951,16 @@ blockquote:before {
             text-align: center;
         }
     }
+}
+
+@media screen  and (max-width: 580px) {
     .sidebar {
         width: 82%;
     }
     .sidebar-opened {
-        transform: translateX(23%);
+        transform: translateX(60px);
     }
 }
-
 
 @media screen and (max-width: 550px) {
     .socials-item a {
